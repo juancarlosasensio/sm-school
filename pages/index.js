@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
+import Hero from '../components/hero'
 
 export default function HomePage() {
   return (
@@ -8,32 +9,7 @@ export default function HomePage() {
         <title>{siteTitle}</title>
       </Head>
 
-      <section className="h-100-section hero bg-hero white-letters">
-        <div className="overlay strong bring-to-front"></div>
-
-        <div className="container h-100 bring-to-front">
-          <div className="row h-100 justify-content-center align-items-center">
-            <div className="col-lg-8 center">
-              <h1 className="mb-0">
-                Education Reimagined
-              </h1>
-              <h3 className="mt-2 mb-4">
-                Forget the educational paradigm you've known all your life. We're reinventing education, and your family can be a part
-                of it.
-              </h3>
-            </div>
-            <div className="col-sm-12 center">
-              <div className="buttons">
-                <a href="https://vimeo.com/83651159" data-lity className="button white">
-                  Watch video <i className="fa fa-play ml"></i>
-                </a>
-                <a className="button quaternary" href="{{ 'apply' | relative_url }}">Apply Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Hero imagePath={"images/bg-hero-home.jpg"} />
       <section>
         <div className="container">
           <div className="row justify-content-center">
