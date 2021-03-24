@@ -2,7 +2,7 @@
 
 Hey, Juan Carlos here 👋. It's very nice to meet you!
 
-This repo is part of my application for the Javascript Engineer position at StickerMule.
+This repo is part of my application for the Javascript Engineer position at Sticker Mule.
 
 ## About Page Bird
 Page Bird helps 40+ small businesses launch, update, and maintain successful marketing websites.
